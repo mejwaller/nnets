@@ -1,0 +1,8 @@
+project
+	: requirements <include>.
+	;
+
+exe nnet
+	:  NeuralNet.cpp
+	   BackProp.cpp
+	;
